@@ -14,22 +14,22 @@ class Zen < Formula
   on_macos do
     on_arm do
       url "https://github.com/zenvara-platform/cli/releases/download/1.0.0/zen-osx-arm64.tar.gz"
-      sha256 "993a8b4d0cb6807a51562f1cdecf9f5423cc30a9f91a723fc854831ce28b4132"
+      sha256 "8542c6c4b220610159542831d0be03375104dcf1f34880cc25093dc9915fe3c7"
     end
     on_intel do
       url "https://github.com/zenvara-platform/cli/releases/download/1.0.0/zen-osx-x64.tar.gz"
-      sha256 "27ad51f7cb5f799c0dc7be475dd9913c06b15fee4b9ef20c8a38c76e620fbe3d"
+      sha256 "3d0421f48da95c870dc88d2eab9301ac7c2b601c166568941e2fe5507eb37025"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/zenvara-platform/cli/releases/download/1.0.0/zen-linux-arm64.tar.gz"
-      sha256 "468f903e1c6edbdb9cbda0163773c064c0dd5a7fec61266e5fbc13b079cd1b50"
+      sha256 "2048daa94f0556694eeb6abe899e6c58507feada07e198d25c865683e42067f7"
     end
     on_intel do
       url "https://github.com/zenvara-platform/cli/releases/download/1.0.0/zen-linux-x64.tar.gz"
-      sha256 "42ef9f8c70451e16b7e9c816460b40a497a11f099607b9062cda5aaa85f4f128"
+      sha256 "e24cacf7f0578465544d4ca3f96d766439e8b4a42477fa6d5eaf1b15b7f66ee7"
     end
   end
 
