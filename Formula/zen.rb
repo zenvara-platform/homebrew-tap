@@ -8,28 +8,28 @@
 class Zen < Formula
   desc "Lightweight cross-platform CLI for Zenvara"
   homepage "https://github.com/zenvara-platform/cli"
-  version "1.2.0"
+  version "1.3.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/zenvara-platform/cli/releases/download/1.2.0/zen-osx-arm64.tar.gz"
-      sha256 "1b0d585e014d6d7cb68aa84d1edff05e6789001cca24cd273a11c41117dfb7ca"
+      url "https://github.com/zenvara-platform/cli/releases/download/1.3.0/zen-osx-arm64.tar.gz"
+      sha256 "0484d5fc6b07bed2eb166d0266d52661e3d580872f86ce59a4449d416b3c3110"
     end
     on_intel do
-      url "https://github.com/zenvara-platform/cli/releases/download/1.2.0/zen-osx-x64.tar.gz"
-      sha256 "a24806d8f3dd23f573c61bb2dfff4f44d22d48ef8891d313a17c2c69f8e78550"
+      url "https://github.com/zenvara-platform/cli/releases/download/1.3.0/zen-osx-x64.tar.gz"
+      sha256 "fbf963b08aab0997da747f22e5f6b7e136dfb9655f1b123c76506854bb6ec890"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zenvara-platform/cli/releases/download/1.2.0/zen-linux-arm64.tar.gz"
-      sha256 "e9aff1327f7e991b5dc5f5ab5ecfbe410629203aa19ce8ecdd5d8cb372706655"
+      url "https://github.com/zenvara-platform/cli/releases/download/1.3.0/zen-linux-arm64.tar.gz"
+      sha256 "4def7fd0e282d81ea0198920a280922f085b78d9fbec6ac1321ff3fd2f14aa7f"
     end
     on_intel do
-      url "https://github.com/zenvara-platform/cli/releases/download/1.2.0/zen-linux-x64.tar.gz"
-      sha256 "c74fa7139fc7152b09bf5fd2d28954de0cee40141cca5d8083538242dbd5c3f1"
+      url "https://github.com/zenvara-platform/cli/releases/download/1.3.0/zen-linux-x64.tar.gz"
+      sha256 "d5ab2afee9519c5d531adfefe49255094286f9ff725a716e2ff1688eebbe45d2"
     end
   end
 
